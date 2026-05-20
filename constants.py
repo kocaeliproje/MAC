@@ -18,7 +18,7 @@ RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 YELLOW = (255, 255, 0)
-PINK = (255, 192, 203)       # <-- EKLENEN RENK
+PINK = (255, 192, 203)       
 ORANGE = (255, 165, 0)
 
 # Oyuncu ayarları
@@ -26,13 +26,13 @@ PLAYER_SIZE = 40
 PLAYER_SPEED = 5
 
 # Düşman ve Nesne Boyutları
-ENEMY_SIZE = 40              # <-- EKLENEN BOYUT
-COLLECTIBLE_SIZE = 32        # <-- EKLENEN BOYUT
+ENEMY_SIZE = 40              
+COLLECTIBLE_SIZE = 32     
 
 # Skor ayarları
 SCORE_PER_CHEESE = 1     # Her peynir yendiğinde alınacak puan
 PEYNIR_HEDEFI = 10        # Her level için yenmesi gereken peynir sayısı
-POINTS_PER_LEVEL = SCORE_PER_CHEESE * PEYNIR_HEDEFI  # Artık 10 puan olunca level atlayacak 
+POINTS_PER_LEVEL = SCORE_PER_CHEESE * PEYNIR_HEDEFI  # 10 puan olunca level atlayacak 
 MAX_LEVEL = 10            # Toplam 10 level
 
 # Level bazlı düşman ayarları
@@ -51,4 +51,4 @@ LEVEL_CONFIG = {
 }
 
 # Düşman hız çarpanı (son 2 level için)
-FAST_LEVEL_MULTIPLIER = 1.2
+FAST_LEVEL_MULTIPLIER = 1.1
