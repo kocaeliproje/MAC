@@ -3,7 +3,6 @@ import random
 from constants import *
 from sprites import create_cat_sprite
 
-# Pygame'in sprite grubuna dahil olabilmesi için (pygame.sprite.Sprite) miras aldık
 class Enemy(pygame.sprite.Sprite):
     def __init__(self, x, y, speed=None):
         super().__init__()
@@ -35,7 +34,7 @@ class Enemy(pygame.sprite.Sprite):
     def adjust_direction_image(self):
         """Kedinin gittiği yatay yöne göre bakış açısını günceller"""
         if self.direction[0] > 0:
-            # Sağa doğru gidiyorsa (Burayı sprite'ınızın duruşuna göre ayarlayabilirsiniz)
+            # Sağa doğru gidiyorsa 
             self.image = self.image_original
         else:
             # Sola doğru gidiyorsa
